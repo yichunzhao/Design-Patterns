@@ -10,8 +10,7 @@ public class TriangleTypeIdentifierContext {
         this.identifier = identifier;
     }
 
-    public Boolean execute(double a, double b, double c){
+    public Boolean execute(double a, double b, double c) {
         return this.identifier.identify(a, b, c);
-
     }
 }

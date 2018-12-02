@@ -1,6 +1,5 @@
 package strategypattern;
 
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -12,10 +11,6 @@ import java.util.stream.Stream;
 public class Isosceles implements TriangleTypeIdentifier {
 
     public Boolean identify(double a, double b, double c) {
-        boolean isIsosceles = false;
-
-        Set<Double> sides = Stream.of(a, b, c).collect(Collectors.toSet());
-
-        return sides.size() == 2;
+        return Stream.of(a, b, c).collect(Collectors.toSet()).size() == 2;
     }
 }

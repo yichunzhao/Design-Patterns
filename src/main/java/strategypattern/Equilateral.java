@@ -1,14 +1,16 @@
 package strategypattern;
 
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toSet;
+
 /**
  * @author YNZ
  */
 
-public class Equilateral implements strategypattern.TriangleTypeIdentifier {
+public class Equilateral implements TriangleTypeIdentifier {
 
     public Boolean identify(double a, double b, double c) {
-        Boolean isEquilateral = false;
-        if (a == b && b == c) isEquilateral = true;
-        return isEquilateral;
+        return Stream.of(a, b, c).collect(toSet()).size() == 1;
     }
 }
