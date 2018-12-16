@@ -20,6 +20,5 @@ public class UsingFilterPattern {
         List<Person> males = criteriaMale.meetCriteria(persons);
         System.out.println("size of males : " + males.size());
 
-
     }
 }
