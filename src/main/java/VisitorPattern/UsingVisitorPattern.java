@@ -6,6 +6,12 @@ import java.util.stream.Stream;
  * @author YNZ
  */
 public class UsingVisitorPattern {
+    //we use visitor pattern
+    //when adding new functionality in existing code without changing the existing code.
+    //visitor itself is a centralised place to contain the different functionality.
+    //visitable itself might be existing data objects
+    //in general, visitor pattern separate data from its logic. That is why it is good for adding new functionality
+    //on existing data objects.
 
     public static void main(String[] args) {
 
