@@ -23,7 +23,7 @@ public class UsingVisitorPattern {
                 .build();
 
 
-        CarVisitor carDescriptionLister = new CarDiscriptionLister();
+        CarVisitor carDescriptionLister = new CarDescriptionLister();
 
         //A visitor visits each part of a car.
         Stream.of(carToShow.door, carToShow.steeringWheel, carToShow.tyre, carToShow.engine)

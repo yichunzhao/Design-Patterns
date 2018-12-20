@@ -3,7 +3,7 @@ package VisitorPattern;
 /**
  * @author YNZ
  */
-public class CarDiscriptionLister implements CarVisitor {
+public class CarDescriptionLister implements CarVisitor {
 
     @Override
     public void visitTyre(CarTyre tyre) {

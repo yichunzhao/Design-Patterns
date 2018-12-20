@@ -14,5 +14,9 @@ public class UsingObserverPattern {
         dataSource.addObserver(dbWriter);
         dataSource.addObserver(guiPlotter);
 
+        dataSource.setValue(66.66);
+
+        System.out.println(dbWriter.getValue());
+
     }
 }
