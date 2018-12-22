@@ -12,7 +12,6 @@ public class DataSourceTest {
 
     @Test
     public void testObserverPattern() {
-
         //observers
         DbWriter dbWriter = new DbWriter();
         GuiPlotter guiPlotter = new GuiPlotter();
@@ -26,9 +25,7 @@ public class DataSourceTest {
         dataSource.setValue(1.66);
 
         assertThat(dbWriter.getValue(), is(1.66));
-        assertThat(guiPlotter.getValue(),is(1.66));
-
-
+        assertThat(guiPlotter.getValue(), is(1.66));
     }
 
 }
