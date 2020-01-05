@@ -25,6 +25,7 @@ class BookingManager {
 enum BookingManagerSingleton {
     INSTANCE;
 
+    // thread safe
     public BookingManager bookingManager;
 
     private BookingManagerSingleton() {
