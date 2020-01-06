@@ -15,17 +15,17 @@ package singleton;
  */
 
 enum BookingManagerSingleton {
+    // a single instance.
     INSTANCE;
 
     // thread safe
     public void booking() {
-
         System.out.println("manager:" + this.hashCode() + " is booking...");
     }
 
 }
 
-public class DemoSingleton {
+public class DemoEnumSingleton {
     public static void main(String[] args) {
         BookingManagerSingleton b1 = BookingManagerSingleton.INSTANCE;
         BookingManagerSingleton b2 = BookingManagerSingleton.INSTANCE;
