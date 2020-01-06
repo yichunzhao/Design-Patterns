@@ -14,32 +14,26 @@ package singleton;
  * instantiate a new instance(private constructor).
  */
 
-class BookingManager {
-
-    public void booking() {
-        System.out.println("manager is booking...");
-    }
-
-}
-
 enum BookingManagerSingleton {
     INSTANCE;
 
     // thread safe
-    public BookingManager bookingManager;
+    public void booking() {
 
-    private BookingManagerSingleton() {
-        this.bookingManager = new BookingManager();
+        System.out.println("manager:" + this.hashCode() + " is booking...");
     }
 
 }
 
 public class DemoSingleton {
     public static void main(String[] args) {
-        BookingManager b1 = BookingManagerSingleton.INSTANCE.bookingManager;
-        BookingManager b2 = BookingManagerSingleton.INSTANCE.bookingManager;
+        BookingManagerSingleton b1 = BookingManagerSingleton.INSTANCE;
+        BookingManagerSingleton b2 = BookingManagerSingleton.INSTANCE;
 
         if (b1 == b2) System.out.println("having the same reference");
+
+        b1.booking();
+        b2.booking();
 
     }
 }
