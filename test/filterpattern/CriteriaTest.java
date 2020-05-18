@@ -1,4 +1,4 @@
-package filterpattern;
+package Others.filterpattern;
 
 import org.junit.Before;
 import org.junit.Test;
