@@ -1,5 +1,10 @@
 package proxypattern;
 
+/**
+ *  proxy works as a surrogate of another instance. This code example demo one of its usages, i.e. wrapping extra
+ *  security check for the delegated instance. So it keeps classes cohesive.
+ */
+
 public class DemoProxyPattern {
 
     public static void main(String[] args) {
