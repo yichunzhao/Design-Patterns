@@ -11,6 +11,6 @@ public class SugarDecorator extends CoffeeDecorator {
 
     @Override
     public String coffeeType(){
-        return decorateCoffee.coffeeType() + " with sugar";
+        return decoratedCoffee.coffeeType() + " with sugar";
     }
 }

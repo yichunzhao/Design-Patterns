@@ -5,15 +5,15 @@ package DecoratorPattern;
  */
 public abstract class CoffeeDecorator implements Coffee {
 
-    protected Coffee decorateCoffee;
+    protected Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee decoratedCoffee) {
-        this.decorateCoffee = decoratedCoffee;
+        this.decoratedCoffee = decoratedCoffee;
     }
 
     @Override
     public String coffeeType() {
-        return decorateCoffee.coffeeType();
+        return decoratedCoffee.coffeeType();
     }
 
 }
