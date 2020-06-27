@@ -1,4 +1,4 @@
-package commandPattern;
+package command;
 
 public class AnotherConcreteCommand implements Command {
     //receiver of command.

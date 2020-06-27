@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package Decorator;
 
 /**
  * @author YNZ

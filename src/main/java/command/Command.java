@@ -1,4 +1,4 @@
-package commandPattern;
+package command;
 
 public interface Command {
     void execute();

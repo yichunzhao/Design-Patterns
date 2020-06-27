@@ -1,4 +1,4 @@
-package commandPattern;
+package command;
 
 public class ClientSide {
     public static void main(String[] args) {

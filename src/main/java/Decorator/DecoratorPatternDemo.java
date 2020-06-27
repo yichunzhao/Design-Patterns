@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package Decorator;
 
 /**
  * Decorator pattern is used to add extra functionality to an existing object without altering its structure.

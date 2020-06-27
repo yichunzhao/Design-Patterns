@@ -1,4 +1,4 @@
-package commandPattern;
+package command;
 
 /**
  * invoker fires a command, and then command ask the receiver to execute.
