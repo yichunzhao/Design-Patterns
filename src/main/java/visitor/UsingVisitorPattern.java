@@ -1,4 +1,4 @@
-package VisitorPattern;
+package visitor;
 
 import java.util.stream.Stream;
 

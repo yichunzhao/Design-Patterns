@@ -1,4 +1,4 @@
-package VisitorPattern;
+package visitor;
 
 /**
  * @author YNZ

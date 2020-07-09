@@ -1,4 +1,4 @@
-package VisitorPattern;
+package visitor;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,12 +10,13 @@ import lombok.Getter;
 
 @Builder
 @AllArgsConstructor
-public class CarEngine implements Visitable {
+public class CarTyre implements Visitable {
     @Getter
-    private float volume;
+    private String brand;
 
     @Override
     public void accept(CarVisitor visitor) {
-        visitor.visitEngine(this);
+        visitor.visitTyre(this);
+
     }
 }

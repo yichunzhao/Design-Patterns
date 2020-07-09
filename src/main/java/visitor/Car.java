@@ -1,4 +1,4 @@
-package VisitorPattern;
+package visitor;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
