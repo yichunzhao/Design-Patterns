@@ -1,4 +1,4 @@
-package proxypattern;
+package structural.proxy;
 
 import java.math.BigDecimal;
 

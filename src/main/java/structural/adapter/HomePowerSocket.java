@@ -1,4 +1,4 @@
-package adapter;
+package structural.adapter;
 
 public class HomePowerSocket implements PowerSource220Volt {
 

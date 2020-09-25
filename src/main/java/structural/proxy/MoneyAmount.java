@@ -1,4 +1,4 @@
-package proxypattern;
+package structural.proxy;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

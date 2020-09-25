@@ -1,4 +1,4 @@
-package adapter;
+package structural.adapter;
 
 /**
  * Convert 220 voltage to 110 voltage

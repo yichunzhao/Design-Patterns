@@ -1,4 +1,4 @@
-package proxypattern;
+package structural.proxy;
 
 /**
  *  proxy works as a surrogate of another instance. This code example demo one of its usages, i.e. wrapping extra

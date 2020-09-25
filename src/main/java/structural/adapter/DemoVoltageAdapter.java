@@ -1,7 +1,7 @@
-package adapter;
+package structural.adapter;
 
 /**
- * Adapter have two interface and a concrete body Just like a real adapter.
+ * Adapter have two interface and a concrete body Just like a real structural.adapter.
  * It is used to handle existing code without altering its structure and code, and reformatting its output or say
  * behaviours to adapt to the client side structure or whatever input requirements.
  */
