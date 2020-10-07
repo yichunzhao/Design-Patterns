@@ -1,4 +1,4 @@
-package structural.bridge;
+package structural.bridge.shapes;
 
 
 import java.awt.*;
